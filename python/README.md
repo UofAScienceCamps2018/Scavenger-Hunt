@@ -34,35 +34,35 @@ Puzzle 7: answer
 You will be given 2 sentences that has been encrypted using a caesar cipher. The first one will be accompanied by the shift number, which should make decryption a lot easier. The second, however, will not come with a key.
 
 ```python
-ciphertext1 = ""  # Key = 17
-ciphertext2 = ""
+ciphertext1 = "nvctfdv kf tfdglkzex jtzvetv zeefmrkfij"  # Key = 17
+ciphertext2 = "kd dro exsfobcsdi yp kvlobdk mywzedsxq cmsoxmo moxdob"
 ```
 
-<!--Hint: ciphertext1 is something that we did earlier, ciphertext2 can be solved with a for loop and some printing-->
+<!-- Hint: ciphertext1 is something that we did earlier, ciphertext2 can be solved with a for loop and some printing-->
 
 ### Puzzle 2: Substitution Cipher Encryption
 You will be given 3 words or phrases that need to be encrypted using the substitution cipher. Come up with a key for each plaintext that will convert them to the expected ciphertext
 
 ```python
-plaintext1 = "We will stirke Venice"    # Expected ciphertext: 
-plaintext2 = "Server shutdown"          # Expected ciphertext: 
-plaintext3 = "Build the fort"           # Expected ciphertext: 
+plaintext1 = "We will stirke Venice"    # Expected ciphertext: xf xjmm tujslf wfojdf
+plaintext2 = "Server shutdown"          # Expected ciphertext: ugtxgt ujwvfqyp
+plaintext3 = "Build the fort"           # Expected ciphertext: niozf yjr gpty
 ```
 
 <!-- Hint: the first two plaintext strings should be encrypted using keys that are in-order -->
 
-### Puzzle 3: Name the cipher
-You will be given two encrypted strings. Your job is to figure out which cipher was used to create those encrypted strings
+### Puzzle 3: Decode the ASCII characters
+Decode the two codes below
 
 ```python
-plaintext1 = ""  # Caesar cipher
-plaintext2 = ""  # Random substitution cipher
+109 105 99 114 111 115 111 102 116
+103 111 108 100 101 110 32 98 101 97 114 115
 ```
 
 <!-- Hint: You can use the same method you used to solve puzzle 1 -->
 
 ### Puzzle 4: Three-Rail Cipher
-Your job is to learn about the three-rail cipher and use it to encrypt the following plaintext
+Your job is to learn about the three-rail cipher, explain it in your own words, and use it to encrypt the following plaintext
 
 ```python
 plaintext = "We should invade the North"
@@ -71,19 +71,17 @@ plaintext = "We should invade the North"
 <!-- Hint: You don't need to write any code to solve this -->
 
 ### Puzzle 5: Vignere Cipher
-Your job is to learn about the vignere cipher and use it to encrypt the following plaintext
-
-```python
-plaintext = "Riddle me this"
-```
+Your job is to learn about the vignere cipher and explain it in your own words
 
 <!-- Hint: Just like in puzzle 4, you don't need to write any code to solve this -->
+<!-- Answer:
+Each character is encrypred according to multiple substitution ciphers -->
 
 ### Puzzle 6: Hidden Message
 Decipher the code in the following message:
 
 ```text
-01 12 23 01 25 19  11 05 05 16  25 15 21 18  16 05 18 19 15 14 01 12  04 01 20 01  19 01 06 05
+115516 25152118 41201 19165
 ```
 
 <!-- Hint: Letters can be numbers too -->
